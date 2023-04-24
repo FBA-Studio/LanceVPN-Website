@@ -1,0 +1,101 @@
+.header-content, .header-logo{
+    display: flex;
+    font-family: sans-serif;
+    color: black;
+    align-content: center;
+    background: fixed;
+    align-items: center;
+}
+
+.header-logo{
+    justify-content: left;
+    padding-left: 3%;
+}
+
+.body-content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-lancevpn{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-lancevpn > h3{
+    /* margin-top: 200px; */
+    padding-left: 8px;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    width: 75%;
+}
+
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat, repeat;
+    border-radius: 64px;
+    box-shadow: 2px 2px 24px rgb(127, 127, 127);
+    backdrop-filter: saturate(200%) blur(30px);
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+    width: 75%;
+}
+
+.menu-buttons{
+    display: flex;
+    align-content: end;
+    padding-right: 3%
+}
+
+.menu-buttons > div{
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons > button{
+    font-size: medium;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    transition: 300ms;
+}
+
+.buttons > button:hover{
+    color:rgb(100, 205, 231);
+    transition: 300ms;
+}
+
+.buttons > button:active{
+    color:rgb(37, 134, 163);
+    transition: 300ms;
+}
+
+
+.header-container{
+    align-content: center;
+    background: fixed;
+    display: flex;
+}
+
+#background{
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    transform: skewX(-10deg);
+    overflow: hidden;
+    border-radius: 1.25rem;
+    right: -5rem;
+    width: 45%;
+}
