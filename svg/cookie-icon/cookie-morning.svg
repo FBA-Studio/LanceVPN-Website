@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 409.09 366.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_2);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="383.97" y1="45.73" x2="24.84" y2="320.91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffed00"/>
+      <stop offset="1" stop-color="#f39200"/>
+    </linearGradient>
+  </defs>
+  <ellipse class="cls-2" cx="204.54" cy="183.21" rx="204.54" ry="183.21"/>
+  <ellipse class="cls-1" cx="121.16" cy="72.56" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="208.39" cy="245.64" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="194.39" cy="105.09" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="133.77" cy="155.76" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="54.09" cy="169.08" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="66.7" cy="236.12" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="108.56" cy="203.15" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="152.65" cy="226.61" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="117.75" cy="273.34" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="194.39" cy="305.32" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="242.36" cy="212.67" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="247.9" cy="301.9" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="83.35" cy="116.76" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="193.97" cy="174.12" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="187.16" cy="58.35" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="260.5" cy="67.87" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="324.16" cy="110.12" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="254.96" cy="135.8" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="354.31" cy="169.08" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="298.95" cy="171.58" rx="12.6" ry="9.52"/>
+  <ellipse class="cls-1" cx="311.55" cy="236.12" rx="12.6" ry="9.52"/>
+</svg>
