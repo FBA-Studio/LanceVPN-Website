@@ -1,1 +1,1 @@
-# LanceVPN-Website
+# LanceVPN Website
