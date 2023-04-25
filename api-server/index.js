@@ -4,7 +4,10 @@ const api = express();
 
 api.listen(80, () => {
     console.log("LanceVPN API Server was started in " + new Date());
-});
+})
+.use(express.json())
+.use(express.urlencoded())
+.use(express.multipart());
 
 api.get("/lancevpn/users", (req, res) => {
     users.getUsers();
