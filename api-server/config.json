@@ -1,0 +1,9 @@
+{
+    "host": "host",
+    "user": "user",
+    "password": "password",
+    "databases":{
+        "users-data": "lancevpn-users-data",
+        "service-data": "lancevpn-service-data"
+    }
+}
