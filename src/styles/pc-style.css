@@ -1,0 +1,159 @@
+.header-content, .header-logo{
+    display: flex;
+    font-family: sans-serif;
+    color: black;
+    align-content: center;
+    background: fixed;
+    align-items: center;
+}
+
+.cookie-alert-container{
+    display: flex;
+    position: fixed;
+}
+
+.cookie-alert-container > img {
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#cookie-alert{
+    bottom: 0;
+    right: 0;
+    display: flex;
+    margin-top: 40px;
+    padding-top: 8px;
+    position: fixed;
+    align-content: center;
+    justify-content: left;
+    justify-items: left;
+    flex-wrap: wrap;
+    border-radius: 32px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 2px 2px 24px rgb(127, 127, 127);
+    width: 275px;
+}
+
+#close-button{
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    padding-right: 3px;
+}
+
+#cookie-alert > h1{
+    font-size: 26px;
+    padding-top: 2px;
+    padding-left: 6px;
+    font-family: 'Times New Roman';
+    font-weight: 10000;
+}
+
+#cookie-alert > h3{
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.header-logo{
+    justify-content: left;
+    padding-left: 3%;
+}
+
+.body-content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-lancevpn{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-lancevpn > h3{
+    /* margin-top: 200px; */
+    padding-left: 8px;
+    font-size: 32px;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    width: 75%;
+}
+
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat, repeat;
+    border-radius: 64px;
+    box-shadow: 2px 2px 24px rgb(127, 127, 127);
+    backdrop-filter: saturate(200%) blur(20px);
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
+    width: 75%;
+}
+
+.menu-buttons{
+    display: flex;
+    align-content: end;
+    padding-right: 3%
+}
+
+.menu-buttons > div{
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons > button{
+    font-size: medium;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.buttons > button:active{
+    color: black;
+    transition: 300ms;
+}
+
+.buttons > button:hover{
+    color:rgb(100, 205, 231);
+    transition: 300ms;
+}
+
+.buttons > button:active{
+    color:rgb(37, 134, 163);
+    transition: 300ms;
+}
+
+
+.header-container{
+    align-content: center;
+    background: fixed;
+    display: flex;
+}
+
+#background{
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    transform: skewX(-10deg);
+    overflow: hidden;
+    border-radius: 1.25rem;
+    right: -5rem;
+    width: 45%;
+}
