@@ -1,15 +1,18 @@
 const express = require("express");
 const users = require("./users");
+const uniqGenerators = require("./uniq-generators");
 const api = express();
 
-api.listen(80, () => {
-    console.log("LanceVPN API Server was started in " + new Date());
-})
-.use(express.json())
+api.use(express.json())
 .use(express.urlencoded())
-.use(express.multipart());
-
-api.get("/lancevpn/users", (req, res) => {
-    users.getUsers();
-    res.json({result: "ok", message: "Hello, World!", users: [{name: "Kirill", age: "17"}, {name: "Stepan", age: "16"}]});
+.listen(80, () => {
+    console.log("LanceVPN API Server was started in " + new Date());
 });
+
+api.get("/lancevpn/user/:luserId", async (req, res) => {
+    var user = await users.getUser(req.params.luserId);
+    res.json(user);
+});
+
+api.post("/lancevpn/createUser/:mail", async (req, res) => {
+})
