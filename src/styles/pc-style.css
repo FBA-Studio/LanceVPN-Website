@@ -7,57 +7,44 @@
     align-items: center;
 }
 
+.close-button-body{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    padding-top: 6px;
+}
+
 .cookie-alert-container{
     display: flex;
     position: fixed;
-}
-
-.cookie-alert-container > img {
-    display: flex;
-    margin-top: 50px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-#cookie-alert{
-    bottom: 0;
-    right: 0;
-    display: flex;
-    margin-top: 40px;
-    padding-top: 8px;
-    position: fixed;
     align-content: center;
-    justify-content: left;
-    justify-items: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding-top: 8px;
     flex-wrap: wrap;
     border-radius: 32px;
     background-color: rgba(255, 255, 255);
     box-shadow: 2px 2px 24px rgb(127, 127, 127);
     width: 275px;
-}
-
-#close-button{
-    bottom: 0;
     right: 0;
-    display: flex;
-    justify-content: right;
-    padding-right: 3px;
+    bottom: 0;
 }
 
-#cookie-alert > h1{
+.cookie-alert-container > h1{
     font-size: 26px;
     padding-top: 2px;
-    padding-left: 6px;
+    padding-left: 10px;
     font-family: 'Times New Roman';
     font-weight: 10000;
 }
 
 #cookie-alert > h3{
-    padding-left: 10px;
+    margin-left: 12px;
     font-size: 18px;
     margin-top: 0px;
     font-weight: 200;
+    bottom: 0;
+    right: 0;
 }
 
 .header-logo{
@@ -70,25 +57,7 @@
     align-content: center;
     align-items: center;
     justify-content: center;
-}
-
-.about-lancevpn{
-    display: flex;
-    flex-direction: row;
-}
-
-.about-lancevpn > h3{
-    /* margin-top: 200px; */
-    padding-left: 8px;
-    font-size: 32px;
-}
-
-.about-page{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    border-radius: 16px;
-    width: 75%;
+    justify-items: center;
 }
 
 .header{
@@ -102,13 +71,10 @@
     width: 75%;
 }
 
-.menu-buttons{
+.header-content > .menu-buttons{
     display: flex;
-    align-content: end;
+    align-content: right;
     padding-right: 3%
-}
-
-.menu-buttons > div{
 }
 
 .buttons{
@@ -125,11 +91,6 @@
     outline: none;
 }
 
-.buttons > button:active{
-    color: black;
-    transition: 300ms;
-}
-
 .buttons > button:hover{
     color:rgb(100, 205, 231);
     transition: 300ms;
@@ -140,11 +101,18 @@
     transition: 300ms;
 }
 
+.buttons > button:focus:not(:active){
+    color: black;
+    transition: 300ms;
+}
+
 
 .header-container{
-    align-content: center;
-    background: fixed;
     display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background: fixed;
 }
 
 #background{
@@ -157,3 +125,6 @@
     right: -5rem;
     width: 45%;
 }
+
+
+  
